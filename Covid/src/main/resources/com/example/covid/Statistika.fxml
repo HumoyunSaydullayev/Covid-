@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="effect" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="1191.0" style="-fx-background-color: rgba(0,0,0,0.3); -fx-background-radius: 30px; -fx-border-radius: 30px;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StatisticController">
+   <PieChart fx:id="statisticchart" prefHeight="561.0" prefWidth="1191.0" stylesheets="@Style.css" />
+</VBox>

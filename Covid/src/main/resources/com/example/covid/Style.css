@@ -1,0 +1,101 @@
+#undo,#change,#Update,#yes_save,#yes_clear,#new_process,#Save,#clear,#old_process,#Insert,#Delete,#vaksina_jarayoni,
+#insert,#update,#delete,#Myprofile,#menu,#code,#vaksinatsiya,#shifokorlar,#vaksinalar,#BtnUser,#submit,#clear,
+#BtnOperator,#statistika ,#statisticchart{
+    -fx-cursor: hand;
+}
+
+.button{
+    -fx-background-color: rgb(255,255,255,0);
+    -fx-border-color: #00ff22;
+    -fx-border-radius:30px;
+    -fx-background-radius: 30px;
+    -fx-border-width:3px;
+}
+.text-field {
+  -fx-border-color:  #00ff22;
+  -fx-border-radius: 20px;
+  -fx-background-radius: 20px;
+  -fx-border-width: 0 0 3 0;
+  -fx-background-color: transparent;
+  -fx-text-fill:white;
+}
+
+
+.table-button {
+	-fx-background-color: -fx-primary-color;
+	-fx-cursor: hand;
+}
+.table-view {
+	-fx-border-color: transparent;
+	-fx-background-color: transparent;
+	-fx-font-size: 22px;
+	-fx-font-family: calibri;
+}
+.table-view .column-header-background,
+.table-view .column-header-background .filler,
+.table-view .corner {
+    -fx-background-color: green;
+	-fx-background-color: transparent;
+}
+.table-view .column-header {
+    -fx-background-color:  transparent;
+	-fx-border-color: none;
+}
+.table-view .column-header .label{
+	-fx-font-weight: bold;
+	-fx-alignment: center-left;
+}
+.table-row-cell:filled {
+	-fx-background-color: transparent;
+}
+.table-row-cell:empty {
+	-fx-background-color: transparent;
+}
+.table-row-cell {
+    -fx-table-cell-border-color: transparent;
+}
+.table-row-cell:filled:hover {
+    -fx-background-color: white;
+}
+.table-row-cell:filled:selected {
+  	-fx-background-color: #eaeaea;
+ 	-fx-background-insets: 0.0;
+	-fx-background-radius: 0.0;
+}
+.table-row-cell:filled:selected .table-cell {
+	-fx-text-fill: black;
+}
+.table-view .cell:filled{
+	-fx-cell-size: 30;
+	-fx-alignment: center-left;
+}
+
+.data0.chart-pie { -fx-pie-color: #00ff22; }
+
+.data1.chart-pie { -fx-pie-color: yellow; }
+
+.data2.chart-pie { -fx-pie-color: red; }
+
+.chart-legend {
+   -fx-background-color:  #fafad2;
+   -fx-stroke: #daa520;
+   -fx-font-size: 16px;
+}
+
+.chart-pie-label-line {
+    -fx-stroke: #00ff22;
+    -fx-fill: #00ff22;
+}
+.chart-title{
+    -fx-fill: white;
+    -fx-font-size: 32px;
+    -fx-text-fill: #4682b4;
+}
+.chart-title {
+  -fx-text-fill: white;
+  -fx-font-size: 32px;
+}
+.chart-pie-label {
+    -fx-fill: white;
+    -fx-font-size: 24px;
+}

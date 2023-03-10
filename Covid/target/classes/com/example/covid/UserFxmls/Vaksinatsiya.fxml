@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="effect" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="657.0" prefWidth="1191.0" style="-fx-background-color: rgba(0,0,0,0.3); -fx-border-radius: 30px; -fx-background-radius: 30px;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UserControllers.VaksinatsiyaController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+         <children>
+            <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Vaksinatsiya ma'lumotlari">
+               <font>
+                  <Font name="Arial" size="30.0" />
+               </font>
+            </Text>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="393.0" prefWidth="1000.0">
+         <children>
+            <VBox prefHeight="500.0" prefWidth="350.0" spacing="30.0">
+               <children>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Passport seriya raqami:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Fuqaro ism familya sharifi:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Jinsi:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Tug'ulgan yili:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Yashash manzili:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Emlanganlik darajasi:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="Qabul qilgan Vaksina nomi:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="415.0" prefWidth="650.0" spacing="30.0">
+               <children>
+                  <Label fx:id="seria" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="fish" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="jinsi" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="date" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="manzil" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="emlanganlik" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="vaksina_nomi" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <padding>
+                  <Insets top="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="206.0" prefWidth="1000.0">
+         <children>
+            <VBox prefHeight="206.0" prefWidth="350.0" spacing="30.0">
+               <children>
+                  <Text fx:id="txt1" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="1-vaksina olgan sana:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txt2" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="2-vaksina olgan sana:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="txt3" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="3-vaksina ogan sana:">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="650.0" spacing="30.0">
+               <children>
+                  <Label fx:id="seria1" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="seria2" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="seria3" prefHeight="25.0" prefWidth="650.0" textFill="WHITE">
+                     <font>
+                        <Font name="Times New Roman Bold" size="23.0" />
+                     </font>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </VBox>
+         </children></HBox>
+   </children>
+</VBox>
